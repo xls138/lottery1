@@ -1,0 +1,120 @@
+{
+  "id": "91b89027-fd5b-4bce-8d17-92fd40c98d2f",
+  "prevId": "ac1f535e-e45c-4d0c-8b13-3b90e6d60c98",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.draws": {
+      "name": "draws",
+      "schema": "",
+      "columns": {
+        "draw_num": {
+          "name": "draw_num",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "draw_time": {
+          "name": "draw_time",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "draw_result": {
+          "name": "draw_result",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "d1": {
+          "name": "d1",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "d2": {
+          "name": "d2",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "d3": {
+          "name": "d3",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "d4": {
+          "name": "d4",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "d5": {
+          "name": "d5",
+          "type": "smallint",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "total_sale_amount": {
+          "name": "total_sale_amount",
+          "type": "numeric(18, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "pool_balance_after_draw": {
+          "name": "pool_balance_after_draw",
+          "type": "numeric(18, 2)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "stake_count": {
+          "name": "stake_count",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "total_prize_amount": {
+          "name": "total_prize_amount",
+          "type": "numeric(18, 2)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {
+        "draws_draw_time_idx": {
+          "name": "draws_draw_time_idx",
+          "columns": [
+            {
+              "expression": "draw_time",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

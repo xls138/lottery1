@@ -1,0 +1,1 @@
+ALTER TABLE "draws" DROP COLUMN "draw_flow_fund";
