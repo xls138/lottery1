@@ -8,7 +8,7 @@ function App() {
   const [draws, setDraws] = useState<Draw[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/draws?limit=7654")
+    fetch("http://localhost:3000/api/draws?limit=all")
       .then((res) => res.json())
       .then((rows: Draw[]) => setDraws([...rows].reverse()));
   }, []);
