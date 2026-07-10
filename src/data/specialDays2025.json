@@ -1,0 +1,185 @@
+{
+  "year": 2025,
+  "lunarYear": "乙巳年(蛇年,含闰六月)",
+  "description": "2025年中国法定节假日、传统节日与重要纪念日数据;2025年是新修订《全国年节及纪念日放假办法》首次实施年份,春节、劳动节法定假期各增加1天",
+  "sources": [
+    "https://www.gov.cn/zhengce/content/202411/content_6986382.htm",
+    "https://www.gov.cn/zhengce/zhengceku/202411/content_6986383.htm"
+  ],
+  "statutoryHolidays": [
+    {
+      "name": "元旦",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "days": 1,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "春节",
+      "startDate": "2025-01-28",
+      "endDate": "2025-02-04",
+      "days": 8,
+      "makeupWorkdays": ["2025-01-26", "2025-02-08"],
+      "note": "新规后较往年增加1天法定假期"
+    },
+    {
+      "name": "清明节",
+      "startDate": "2025-04-04",
+      "endDate": "2025-04-06",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "劳动节",
+      "startDate": "2025-05-01",
+      "endDate": "2025-05-05",
+      "days": 5,
+      "makeupWorkdays": ["2025-04-27"],
+      "note": "新规后较往年增加1天法定假期"
+    },
+    {
+      "name": "端午节",
+      "startDate": "2025-05-31",
+      "endDate": "2025-06-02",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "国庆节、中秋节",
+      "startDate": "2025-10-01",
+      "endDate": "2025-10-08",
+      "days": 8,
+      "makeupWorkdays": ["2025-09-28", "2025-10-11"],
+      "note": "中秋节(10月6日)与国庆节合并放假"
+    }
+  ],
+  "traditionalFestivals": [
+    {
+      "name": "腊八节",
+      "date": "2025-01-06",
+      "weekday": "周一",
+      "lunarDate": "腊月初八"
+    },
+    {
+      "name": "小年(北方)",
+      "date": "2025-01-21",
+      "weekday": "周二",
+      "lunarDate": "腊月二十三"
+    },
+    {
+      "name": "小年(南方)",
+      "date": "2025-01-22",
+      "weekday": "周三",
+      "lunarDate": "腊月二十四"
+    },
+    {
+      "name": "除夕",
+      "date": "2025-01-28",
+      "weekday": "周二",
+      "lunarDate": "腊月三十"
+    },
+    {
+      "name": "春节(正月初一)",
+      "date": "2025-01-29",
+      "weekday": "周三",
+      "lunarDate": "正月初一"
+    },
+    {
+      "name": "元宵节",
+      "date": "2025-02-12",
+      "weekday": "周三",
+      "lunarDate": "正月十五"
+    },
+    {
+      "name": "龙抬头",
+      "date": "2025-03-01",
+      "weekday": "周六",
+      "lunarDate": "二月初二"
+    },
+    {
+      "name": "七夕节",
+      "date": "2025-08-29",
+      "weekday": "周五",
+      "lunarDate": "七月初七"
+    },
+    {
+      "name": "中元节",
+      "date": "2025-09-06",
+      "weekday": "周六",
+      "lunarDate": "七月十五"
+    },
+    {
+      "name": "中秋节",
+      "date": "2025-10-06",
+      "weekday": "周一",
+      "lunarDate": "八月十五",
+      "note": "与国庆节合并放假"
+    },
+    {
+      "name": "重阳节",
+      "date": "2025-10-29",
+      "weekday": "周三",
+      "lunarDate": "九月初九"
+    }
+  ],
+  "memorialDays": [
+    { "name": "三八国际妇女节", "date": "2025-03-08", "weekday": "周六" },
+    { "name": "植树节", "date": "2025-03-12", "weekday": "周三" },
+    { "name": "国际消费者权益日", "date": "2025-03-15", "weekday": "周六" },
+    { "name": "全民国家安全教育日", "date": "2025-04-15", "weekday": "周二" },
+    { "name": "五四青年节", "date": "2025-05-04", "weekday": "周日" },
+    { "name": "国际护士节", "date": "2025-05-12", "weekday": "周一" },
+    { "name": "六一国际儿童节", "date": "2025-06-01", "weekday": "周日" },
+    { "name": "国际禁毒日", "date": "2025-06-26", "weekday": "周四" },
+    {
+      "name": "建党节",
+      "date": "2025-07-01",
+      "weekday": "周二",
+      "note": "中国共产党成立纪念日"
+    },
+    { "name": "香港回归纪念日", "date": "2025-07-01", "weekday": "周二" },
+    {
+      "name": "七七事变纪念日",
+      "date": "2025-07-07",
+      "weekday": "周一",
+      "note": "卢沟桥事变,全民族抗战爆发纪念日"
+    },
+    {
+      "name": "建军节",
+      "date": "2025-08-01",
+      "weekday": "周五",
+      "note": "中国人民解放军建军纪念日"
+    },
+    { "name": "中国医师节", "date": "2025-08-19", "weekday": "周二" },
+    {
+      "name": "抗日战争胜利纪念日",
+      "date": "2025-09-03",
+      "weekday": "周三",
+      "note": "中国人民抗日战争暨世界反法西斯战争胜利80周年"
+    },
+    { "name": "教师节", "date": "2025-09-10", "weekday": "周三" },
+    { "name": "九一八事变纪念日", "date": "2025-09-18", "weekday": "周四" },
+    { "name": "台湾光复纪念日", "date": "2025-10-25", "weekday": "周六" },
+    { "name": "记者节", "date": "2025-11-08", "weekday": "周六" },
+    {
+      "name": "国家公祭日",
+      "date": "2025-12-13",
+      "weekday": "周六",
+      "note": "南京大屠杀死难者国家公祭日"
+    },
+    { "name": "澳门回归纪念日", "date": "2025-12-20", "weekday": "周六" }
+  ],
+  "observances": [
+    { "name": "情人节", "date": "2025-02-14", "weekday": "周五" },
+    { "name": "愚人节", "date": "2025-04-01", "weekday": "周二" },
+    { "name": "世界读书日", "date": "2025-04-23", "weekday": "周三" },
+    { "name": "母亲节", "date": "2025-05-11", "weekday": "周日" },
+    { "name": "父亲节", "date": "2025-06-15", "weekday": "周日" },
+    { "name": "万圣节", "date": "2025-10-31", "weekday": "周五" },
+    { "name": "双十一", "date": "2025-11-11", "weekday": "周二" },
+    { "name": "感恩节", "date": "2025-11-27", "weekday": "周四" },
+    { "name": "双十二", "date": "2025-12-12", "weekday": "周五" },
+    { "name": "平安夜", "date": "2025-12-24", "weekday": "周三" },
+    { "name": "圣诞节", "date": "2025-12-25", "weekday": "周四" }
+  ]
+}

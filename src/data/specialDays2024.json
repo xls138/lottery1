@@ -1,0 +1,109 @@
+{
+  "year": 2024,
+  "lunarYear": "甲辰年(龙年)",
+  "description": "2024年中国法定节假日、传统节日与重要纪念日数据",
+  "sources": [
+    "https://www.gov.cn/zhengce/content/202310/content_6911527.htm"
+  ],
+  "statutoryHolidays": [
+    {
+      "name": "元旦",
+      "startDate": "2023-12-30",
+      "endDate": "2024-01-01",
+      "days": 3,
+      "makeupWorkdays": [],
+      "note": "假期起始于2023年12月30日,与周末连休"
+    },
+    {
+      "name": "春节",
+      "startDate": "2024-02-10",
+      "endDate": "2024-02-17",
+      "days": 8,
+      "makeupWorkdays": ["2024-02-04", "2024-02-18"]
+    },
+    {
+      "name": "清明节",
+      "startDate": "2024-04-04",
+      "endDate": "2024-04-06",
+      "days": 3,
+      "makeupWorkdays": ["2024-04-07"]
+    },
+    {
+      "name": "劳动节",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-05",
+      "days": 5,
+      "makeupWorkdays": ["2024-04-28", "2024-05-11"]
+    },
+    {
+      "name": "端午节",
+      "startDate": "2024-06-08",
+      "endDate": "2024-06-10",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "中秋节",
+      "startDate": "2024-09-15",
+      "endDate": "2024-09-17",
+      "days": 3,
+      "makeupWorkdays": ["2024-09-14"],
+      "note": "中秋节实际日期为9月17日(假期最后一天)"
+    },
+    {
+      "name": "国庆节",
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-07",
+      "days": 7,
+      "makeupWorkdays": ["2024-09-29", "2024-10-12"]
+    }
+  ],
+  "traditionalFestivals": [
+    { "name": "腊八节", "date": "2024-01-18", "weekday": "周四", "lunarDate": "腊月初八" },
+    { "name": "小年(北方)", "date": "2024-02-02", "weekday": "周五", "lunarDate": "腊月二十三" },
+    { "name": "小年(南方)", "date": "2024-02-03", "weekday": "周六", "lunarDate": "腊月二十四" },
+    { "name": "除夕", "date": "2024-02-09", "weekday": "周五", "lunarDate": "腊月三十" },
+    { "name": "春节(正月初一)", "date": "2024-02-10", "weekday": "周六", "lunarDate": "正月初一" },
+    { "name": "元宵节", "date": "2024-02-24", "weekday": "周六", "lunarDate": "正月十五" },
+    { "name": "龙抬头", "date": "2024-03-11", "weekday": "周一", "lunarDate": "二月初二" },
+    { "name": "七夕节", "date": "2024-08-10", "weekday": "周六", "lunarDate": "七月初七" },
+    { "name": "中元节", "date": "2024-08-18", "weekday": "周日", "lunarDate": "七月十五" },
+    { "name": "中秋节", "date": "2024-09-17", "weekday": "周二", "lunarDate": "八月十五" },
+    { "name": "重阳节", "date": "2024-10-11", "weekday": "周五", "lunarDate": "九月初九" }
+  ],
+  "memorialDays": [
+    { "name": "三八国际妇女节", "date": "2024-03-08", "weekday": "周五" },
+    { "name": "植树节", "date": "2024-03-12", "weekday": "周二" },
+    { "name": "国际消费者权益日", "date": "2024-03-15", "weekday": "周五" },
+    { "name": "全民国家安全教育日", "date": "2024-04-15", "weekday": "周一" },
+    { "name": "五四青年节", "date": "2024-05-04", "weekday": "周六" },
+    { "name": "国际护士节", "date": "2024-05-12", "weekday": "周日" },
+    { "name": "六一国际儿童节", "date": "2024-06-01", "weekday": "周六" },
+    { "name": "国际禁毒日", "date": "2024-06-26", "weekday": "周三" },
+    { "name": "建党节", "date": "2024-07-01", "weekday": "周一", "note": "中国共产党成立纪念日" },
+    { "name": "香港回归纪念日", "date": "2024-07-01", "weekday": "周一" },
+    { "name": "七七事变纪念日", "date": "2024-07-07", "weekday": "周日", "note": "卢沟桥事变,全民族抗战爆发纪念日" },
+    { "name": "建军节", "date": "2024-08-01", "weekday": "周四", "note": "中国人民解放军建军纪念日" },
+    { "name": "中国医师节", "date": "2024-08-19", "weekday": "周一" },
+    { "name": "抗日战争胜利纪念日", "date": "2024-09-03", "weekday": "周二", "note": "中国人民抗日战争暨世界反法西斯战争胜利纪念日" },
+    { "name": "教师节", "date": "2024-09-10", "weekday": "周二" },
+    { "name": "九一八事变纪念日", "date": "2024-09-18", "weekday": "周三" },
+    { "name": "台湾光复纪念日", "date": "2024-10-25", "weekday": "周五" },
+    { "name": "记者节", "date": "2024-11-08", "weekday": "周五" },
+    { "name": "国家公祭日", "date": "2024-12-13", "weekday": "周五", "note": "南京大屠杀死难者国家公祭日" },
+    { "name": "澳门回归纪念日", "date": "2024-12-20", "weekday": "周五" }
+  ],
+  "observances": [
+    { "name": "情人节", "date": "2024-02-14", "weekday": "周三" },
+    { "name": "愚人节", "date": "2024-04-01", "weekday": "周一" },
+    { "name": "世界读书日", "date": "2024-04-23", "weekday": "周二" },
+    { "name": "母亲节", "date": "2024-05-12", "weekday": "周日", "note": "与国际护士节同日" },
+    { "name": "父亲节", "date": "2024-06-16", "weekday": "周日" },
+    { "name": "万圣节", "date": "2024-10-31", "weekday": "周四" },
+    { "name": "双十一", "date": "2024-11-11", "weekday": "周一" },
+    { "name": "感恩节", "date": "2024-11-28", "weekday": "周四" },
+    { "name": "双十二", "date": "2024-12-12", "weekday": "周四" },
+    { "name": "平安夜", "date": "2024-12-24", "weekday": "周二" },
+    { "name": "圣诞节", "date": "2024-12-25", "weekday": "周三" }
+  ]
+}

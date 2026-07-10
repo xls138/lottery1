@@ -1,0 +1,193 @@
+{
+  "year": 2026,
+  "lunarYear": "丙午年(马年)",
+  "description": "2026年中国法定节假日、传统节日与重要纪念日数据",
+  "sources": [
+    "http://www.scio.gov.cn/zdgz/jj/202511/t20251110_938367.html",
+    "http://politics.people.com.cn/n1/2025/1104/c1001-40596715.html"
+  ],
+  "statutoryHolidays": [
+    {
+      "name": "元旦",
+      "startDate": "2026-01-01",
+      "endDate": "2026-01-03",
+      "days": 3,
+      "makeupWorkdays": ["2026-01-04"]
+    },
+    {
+      "name": "春节",
+      "startDate": "2026-02-15",
+      "endDate": "2026-02-23",
+      "days": 9,
+      "makeupWorkdays": ["2026-02-14", "2026-02-28"]
+    },
+    {
+      "name": "清明节",
+      "startDate": "2026-04-04",
+      "endDate": "2026-04-06",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "劳动节",
+      "startDate": "2026-05-01",
+      "endDate": "2026-05-05",
+      "days": 5,
+      "makeupWorkdays": ["2026-05-09"]
+    },
+    {
+      "name": "端午节",
+      "startDate": "2026-06-19",
+      "endDate": "2026-06-21",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "中秋节",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-27",
+      "days": 3,
+      "makeupWorkdays": []
+    },
+    {
+      "name": "国庆节",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "days": 7,
+      "makeupWorkdays": ["2026-09-20", "2026-10-10"]
+    }
+  ],
+  "traditionalFestivals": [
+    {
+      "name": "腊八节",
+      "date": "2026-01-26",
+      "weekday": "周一",
+      "lunarDate": "腊月初八"
+    },
+    {
+      "name": "小年(北方)",
+      "date": "2026-02-10",
+      "weekday": "周二",
+      "lunarDate": "腊月二十三"
+    },
+    {
+      "name": "小年(南方)",
+      "date": "2026-02-11",
+      "weekday": "周三",
+      "lunarDate": "腊月二十四"
+    },
+    {
+      "name": "除夕",
+      "date": "2026-02-16",
+      "weekday": "周一",
+      "lunarDate": "腊月二十九"
+    },
+    {
+      "name": "春节(正月初一)",
+      "date": "2026-02-17",
+      "weekday": "周二",
+      "lunarDate": "正月初一"
+    },
+    {
+      "name": "元宵节",
+      "date": "2026-03-03",
+      "weekday": "周二",
+      "lunarDate": "正月十五"
+    },
+    {
+      "name": "龙抬头",
+      "date": "2026-03-20",
+      "weekday": "周五",
+      "lunarDate": "二月初二",
+      "note": "与2026年春分同日,罕见天文历法巧合"
+    },
+    {
+      "name": "七夕节",
+      "date": "2026-08-19",
+      "weekday": "周三",
+      "lunarDate": "七月初七"
+    },
+    {
+      "name": "中元节",
+      "date": "2026-08-27",
+      "weekday": "周四",
+      "lunarDate": "七月十五"
+    },
+    {
+      "name": "重阳节",
+      "date": "2026-10-18",
+      "weekday": "周日",
+      "lunarDate": "九月初九"
+    }
+  ],
+  "memorialDays": [
+    { "name": "三八国际妇女节", "date": "2026-03-08", "weekday": "周日" },
+    { "name": "植树节", "date": "2026-03-12", "weekday": "周四" },
+    { "name": "国际消费者权益日", "date": "2026-03-15", "weekday": "周日" },
+    { "name": "全民国家安全教育日", "date": "2026-04-15", "weekday": "周三" },
+    { "name": "五四青年节", "date": "2026-05-04", "weekday": "周一" },
+    { "name": "国际护士节", "date": "2026-05-12", "weekday": "周二" },
+    { "name": "六一国际儿童节", "date": "2026-06-01", "weekday": "周一" },
+    { "name": "国际禁毒日", "date": "2026-06-26", "weekday": "周五" },
+    {
+      "name": "建党节",
+      "date": "2026-07-01",
+      "weekday": "周三",
+      "note": "中国共产党成立纪念日"
+    },
+    { "name": "香港回归纪念日", "date": "2026-07-01", "weekday": "周三" },
+    {
+      "name": "七七事变纪念日",
+      "date": "2026-07-07",
+      "weekday": "周二",
+      "note": "卢沟桥事变,全民族抗战爆发纪念日"
+    },
+    {
+      "name": "建军节",
+      "date": "2026-08-01",
+      "weekday": "周六",
+      "note": "中国人民解放军建军纪念日"
+    },
+    { "name": "中国医师节", "date": "2026-08-19", "weekday": "周三" },
+    {
+      "name": "抗日战争胜利纪念日",
+      "date": "2026-09-03",
+      "weekday": "周四",
+      "note": "中国人民抗日战争暨世界反法西斯战争胜利纪念日"
+    },
+    { "name": "教师节", "date": "2026-09-10", "weekday": "周四" },
+    { "name": "九一八事变纪念日", "date": "2026-09-18", "weekday": "周五" },
+    { "name": "台湾光复纪念日", "date": "2026-10-25", "weekday": "周日" },
+    { "name": "记者节", "date": "2026-11-08", "weekday": "周日" },
+    {
+      "name": "国家公祭日",
+      "date": "2026-12-13",
+      "weekday": "周日",
+      "note": "南京大屠杀死难者国家公祭日"
+    },
+    { "name": "澳门回归纪念日", "date": "2026-12-20", "weekday": "周日" }
+  ],
+  "observances": [
+    {
+      "name": "情人节",
+      "date": "2026-02-14",
+      "weekday": "周六",
+      "note": "与2026年春节调休上班日相同"
+    },
+    { "name": "愚人节", "date": "2026-04-01", "weekday": "周三" },
+    { "name": "世界读书日", "date": "2026-04-23", "weekday": "周四" },
+    { "name": "母亲节", "date": "2026-05-10", "weekday": "周日" },
+    {
+      "name": "父亲节",
+      "date": "2026-06-21",
+      "weekday": "周日",
+      "note": "与2026年端午节假期最后一天相同"
+    },
+    { "name": "万圣节", "date": "2026-10-31", "weekday": "周六" },
+    { "name": "双十一", "date": "2026-11-11", "weekday": "周三" },
+    { "name": "感恩节", "date": "2026-11-26", "weekday": "周四" },
+    { "name": "双十二", "date": "2026-12-12", "weekday": "周六" },
+    { "name": "平安夜", "date": "2026-12-24", "weekday": "周四" },
+    { "name": "圣诞节", "date": "2026-12-25", "weekday": "周五" }
+  ]
+}
