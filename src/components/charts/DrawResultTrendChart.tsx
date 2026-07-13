@@ -23,7 +23,7 @@ export default function DrawResultTrendChart({
 
     chart.setOption({
       title: {
-        text: startTime ? `每期开奖结果数字化 ${startTime}-至今` : "每期开奖结果数字化",
+        text: startTime ? `每期排列五开奖结果数字化 ${startTime}-至今` : "每期排列五开奖结果数字化",
       },
       tooltip: { trigger: "axis" },
       xAxis: {
