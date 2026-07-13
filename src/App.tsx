@@ -5,7 +5,7 @@ import StakeCountTrendChart from "./components/charts/StakeCountTrendChart";
 import PoolBalanceAfterDrawTrendChart from "./components/charts/PoolBalanceAfterDrawTrendChart";
 import DrawResultTrendChart from "./components/charts/DrawResultTrendChart";
 import D1D2D3HeatmapChart from "./components/charts/D1D2D3HeatmapChart";
-import D4D5HeatmapChart from "./components/charts/D4D5HeatmapChart";
+// import D4D5HeatmapChart from "./components/charts/D4D5HeatmapChart";
 // import D1D2D3D4D5HeatmapChart from "./components/charts/D1D2D3D4D5HeatmapChart";
 import D1TrendChart from "./components/charts/D1TrendChart";
 import D2TrendChart from "./components/charts/D2TrendChart";
@@ -38,7 +38,7 @@ function App() {
       <D1D2D3SumTrendChart data={draws} />
       <D1D2D3D4D5SumTrendChart data={draws} />
       <D1D2D3HeatmapChart data={draws} />
-      <D4D5HeatmapChart data={draws} />
+      {/* <D4D5HeatmapChart data={draws} /> */}
       {/* <D1D2D3D4D5HeatmapChart data={draws} /> */}
     </div>
   );
