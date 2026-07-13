@@ -12,6 +12,8 @@ import D2TrendChart from "./components/charts/D2TrendChart";
 import D3TrendChart from "./components/charts/D3TrendChart";
 import D4TrendChart from "./components/charts/D4TrendChart";
 import D5TrendChart from "./components/charts/D5TrendChart";
+import D1D2D3SumTrendChart from "./components/charts/D1D2D3SumTrendChart";
+import D1D2D3D4D5SumTrendChart from "./components/charts/D1D2D3D4D5SumTrendChart";
 
 function App() {
   const [draws, setDraws] = useState<Draw[]>([]);
@@ -33,6 +35,8 @@ function App() {
       <D3TrendChart data={draws} />
       <D4TrendChart data={draws} />
       <D5TrendChart data={draws} />
+      <D1D2D3SumTrendChart data={draws} />
+      <D1D2D3D4D5SumTrendChart data={draws} />
       <D1D2D3HeatmapChart data={draws} />
       <D4D5HeatmapChart data={draws} />
       {/* <D1D2D3D4D5HeatmapChart data={draws} /> */}
