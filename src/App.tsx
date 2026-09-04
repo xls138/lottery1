@@ -5,6 +5,9 @@ import StakeCountTrendChart from "./components/charts/StakeCountTrendChart";
 import PoolBalanceAfterDrawTrendChart from "./components/charts/PoolBalanceAfterDrawTrendChart";
 // import DrawResultTrendChart from "./components/charts/DrawResultTrendChart";
 import D1D2D3HeatmapChart from "./components/charts/D1D2D3HeatmapChart";
+import D1WeakestGapChart from "./components/charts/D1WeakestGapChart";
+import D1WeakestFullGapChart from "./components/charts/D1WeakestFullGapChart";
+import D1WeakestSecondGapChart from "./components/charts/D1WeakestSecondGapChart";
 import D1D2D3HeatmapChart2026 from "./components/charts/D1D2D3HeatmapChart2026";
 // import D4D5HeatmapChart from "./components/charts/D4D5HeatmapChart";
 // import D1D2D3D4D5HeatmapChart from "./components/charts/D1D2D3D4D5HeatmapChart";
@@ -34,6 +37,9 @@ function App() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       {/* <TotalSaleAmountTrendChart data={draws} /> */}
+      <D1WeakestGapChart data={draws} />
+      <D1WeakestFullGapChart data={draws} />
+      <D1WeakestSecondGapChart data={draws} />
       <StakeCountTrendChart data={draws} />
       <PoolBalanceAfterDrawTrendChart data={draws} />
       {/* <DrawResultTrendChart data={draws} /> */}
