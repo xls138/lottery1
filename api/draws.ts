@@ -41,16 +41,8 @@ const getDraws = async (c: any) => {
 app.get("/api/draws", getDraws);
 app.get("/draws", getDraws);
 
-// Vercel 的 Node 运行时传入的是 Node 风格 req(headers 是普通对象),
-// hono/vercel 的 handle() 会原样透传导致崩溃,这里统一转成标准 Request。
-export default async function handler(req: any) {
-  const isStandard =
-    typeof req.headers?.get === "function" && typeof req.text === "function";
-  const request = isStandard
-    ? (req as Request)
-    : new Request(`https://${req.headers.host}${req.url}`, {
-        method: req.method,
-        headers: new Headers(req.headers),
-      });
+// Vercel Web 风格函数签名:具名 HTTP 方法,入参是标准 Request,返回 Response 会被采纳
+// (默认导出的 (req,res) 签名返回值会被忽略,见 Vercel 文档)
+export async function GET(request: Request) {
   return app.fetch(request);
 }
