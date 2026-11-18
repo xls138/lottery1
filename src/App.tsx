@@ -29,7 +29,7 @@ function App() {
   const [draws, setDraws] = useState<Draw[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/draws?limit=all")
+    fetch("/api/draws?limit=all")
       .then((res) => res.json())
       .then((rows: Draw[]) => setDraws([...rows].reverse()));
   }, []);
