@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { db, draws } from "../db/index.ts";
+import { db, draws } from "../db/index.js";
 import { sql } from "drizzle-orm";
 
 const API =

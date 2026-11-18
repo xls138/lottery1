@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
-import * as schema from "./schema.ts";
+import * as schema from "./schema.js";
 
 // pooler 模式必须关掉预处理语句,否则会报错
 const client = postgres(process.env.DATABASE_URL!, { prepare: false });

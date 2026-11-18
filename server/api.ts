@@ -2,7 +2,7 @@ import "dotenv/config";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { serve } from "@hono/node-server";
-import { db, draws } from "../db/index.ts";
+import { db, draws } from "../db/index.js";
 import { desc, and, gte, lte } from "drizzle-orm";
 
 const app = new Hono();

@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { handle } from "hono/vercel";
 import { cors } from "hono/cors";
-import { db, draws } from "../db/index.ts";
+import { db, draws } from "../db/index.js";
 import { desc, and, gte, lte } from "drizzle-orm";
 
 export const config = {
